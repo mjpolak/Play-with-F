@@ -1,1 +1,1 @@
-//TO DO
+My micro-projects made during F# learning
