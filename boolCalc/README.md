@@ -1,7 +1,7 @@
 # boolCalc
 ### What is it?
 Quite good logic expression interpreter. 
-Made fo learning pruposes.
+Made for learning pruposes.
 
 ### How it works?
 
@@ -23,7 +23,7 @@ Last column hold result for whole expression.
 ### Expression Structure
 
 Expressions can contain:
-* Logic value (e.g. `a`,`b`,`c`)
+* Logic value - single character (e.g. `a`,`b`,`c`)
 * Operators:
 	* `~` - Negation (put it before Logic value, e.g. `~b`)
 	* `&` - And gate (e.g. `a&b`)
@@ -33,6 +33,8 @@ Expressions can contain:
 	* `^` - XOR operator (e.g. `a^b`
 * `( and )` - parenthesis  controls order of processing logic (e. g. `a&(b|c)` , b or c will be evaluated first)
 * Spaces - ignored
+
+There is no limit of logic values used in expression
 
 #### Example inputs
 
